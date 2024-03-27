@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+.page-body{
+    margin-top:90px
+}
+.header{
+    border:solid 1px #000;
+    padding:10px 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+.head-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .header::after{
+    content:"";
+    clear:both;
+    display:block;
+
+} */
+.logo img{
+    max-width:130px;
+    cursor:pointer;
+}
+/* .logo{
+    float:left;
+} */
+.nav-item{
+    /* float:right; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-item li{
+    display: inline-flex;
+}
+.nav-item li a,
+.nav-item li button{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.res-fex .res-fex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* .res-container::after{
+    content: "";
+    clear: both;
+    display: block;
+} */
+.res-container a {
+    display: inline-block;
+    border: 1px solid #000;
+    width: 20%;
+    margin: 0px 15px 15px 0 ;
+    padding: 15px;
+    border-radius: 10px;
+    vertical-align: top;
+    color: #000;
+    text-decoration: none;
+}
+.shimmer-card{
+    min-height: 300px;
+    display: inline-block;
+    width: 20%;
+    margin:15px 15px 0 0;
+    padding: 15px;
+    border-radius: 10px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+.img-wrap{
+    height:200px;
+    max-height: 200px;
+}
+.res-card .img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+/* .res-info {
+    height: 100px;
+    overflow: auto;
+} */
+.res-card h4{
+    margin:15px 0 0;
+}
+.res-fex p {
+    font-size: 12px;
+    padding-right: 8px;
+    margin: 10px 0 0;
+}
+.btn-filter{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    justify-content: space-between  ;
+    margin: 10px 0;
+    align-items: center;
+}
+.menu-page {
+    max-width: 800px;
+    margin: auto;
+}
+.menu-page .res-fex1{
+    border-bottom: dashed 2px #7e808c;
+}
+.menu-page.res-fex h3 {
+    margin-bottom: 0;
+}
+.menu-page.res-fex p {
+    font-size: 13px;
+    color: #7e808c;
+    margin: 10px 0;
+}
+.promotion-lablel {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+.accordian-head span {
+    color: #3e4152;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.accordian-head {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.accordian-container,
+.cart-container {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.menu-deatil-box {
+    width: 85%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-image-box {
+    width: 15%;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-deatil-box h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.accordian-body >div {
+    border-bottom: 2px dashed #7e808c;
+    padding: 20px 0;
+}
+.accordian-body > div:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+/* .accordian-body{
+    display: none;
+}
+.accordian-body.open{
+    display: block;
+} */
+.btn-add{
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 7px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border: none;
+}
+.clear-btn{
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 7px;
+    padding:10px;
+    border: none;
+}
+.added-item-button{
+    background-color: #e70d0d;
+    border: 0;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.added-item-button button {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 30%;
+}
+.proceedpayment{
+    background-color: #e70d0d;
+    border: 0;
+    border-radius: 7px;
+    color:#fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.success-page{
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px #0003;
+    text-align: center;
+    width:50%;
+    margin: auto;
+}
+.success-icon{
+    font-size: 30px;
+    margin: 0;
+}
